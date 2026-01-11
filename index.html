@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tax Master</title>
+
+  <meta name="description"
+        content="Professional tax consultancy for businesses and individuals. Expert VAT, corporate tax, and personal tax advisory with stress-free compliance." />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Tax<span>Master</span></div>
+      <nav class="main-nav">
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-small">Book Call</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1>Stress‑Free Tax Compliance for Businesses & Professionals</h1>
+        <p>
+          Dedicated tax consultants helping you stay compliant, avoid penalties,
+          and pay only what you legally owe.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn">Book a Free Consultation</a>
+          <a href="tel:+971500000000" class="hero-phone">Call / WhatsApp: +971 50 000 0000</a>
+        </div>
+        <ul class="hero-highlights">
+          <li>Corporate & SME tax advisory</li>
+          <li>VAT registration & filing</li>
+          <li>Individual tax returns & planning</li>
+        </ul>
+      </div>
+      <div class="hero-aside">
+        <div class="hero-card">
+          <h2>Speak to a Tax Expert</h2>
+          <p>Share a few details and get a callback within 24 hours.</p>
+          <form id="heroForm" class="hero-form">
+            <div class="form-group">
+              <label for="heroName">Name</label>
+              <input type="text" id="heroName" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="heroEmail">Email</label>
+              <input type="email" id="heroEmail" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="heroPhone">Phone / WhatsApp</label>
+              <input type="tel" id="heroPhone" name="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="heroType">Client type</label>
+              <select id="heroType" name="clientType">
+                <option value="business">Business</option>
+                <option value="individual">Individual</option>
+                <option value="freelancer">Freelancer</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-block">Request Callback</button>
+            <p class="form-note">No spam. Your details are kept confidential.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="container">
+      <header class="section-header">
+        <h2>Tax Services Tailored to You</h2>
+        <p>End‑to‑end support for individuals, freelancers, and growing businesses.</p>
+      </header>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <h3>Corporate & SME Tax</h3>
+          <p>
+            Entity structuring, tax returns, and ongoing compliance to keep your company aligned with current regulations.
+          </p>
+        </article>
+        <article class="card">
+          <h3>VAT / Indirect Tax</h3>
+          <p>
+            VAT registration, filing, and advisory to manage risk, input credits, and reporting deadlines.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Individual Tax Returns</h3>
+          <p>
+            Preparation and filing for employees, executives, and expatriates with multi‑jurisdiction exposure.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Tax Planning & Advisory</h3>
+          <p>
+            Strategic guidance to optimize your tax position while staying fully compliant with the law.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Audit & Notice Support</h3>
+          <p>
+            Assistance with tax authority queries, audits, and dispute resolution to minimize disruption.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Bookkeeping & Compliance</h3>
+          <p>
+            Accurate records, reconciliations, and reporting that support stronger tax positions.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section section-alt" id="why-us">
+    <div class="container">
+      <header class="section-header">
+        <h2>Why Partner With Our Team</h2>
+        <p>Combining technical expertise with practical, business‑first advice.</p>
+      </header>
+
+      <div class="grid grid-3">
+        <article class="card icon-card">
+          <h3>Experienced Consultants</h3>
+          <p>
+            Qualified professionals with years of experience in corporate, VAT, and individual taxation.
+          </p>
+        </article>
+        <article class="card icon-card">
+          <h3>Transparent Pricing</h3>
+          <p>
+            Fixed, upfront fees with no hidden charges, so you always know what you will pay.
+          </p>
+        </article>
+        <article class="card icon-card">
+          <h3>Compliance First</h3>
+          <p>
+            Robust processes to help you avoid penalties and meet every deadline on time.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <header class="section-header">
+        <h2>What Clients Say</h2>
+        <p>Real feedback from businesses and professionals we support.</p>
+      </header>
+
+      <div class="grid grid-3">
+        <article class="card testimonial">
+          <p>
+            “Our filings are now smooth and predictable. The team handles everything and keeps us updated.”
+          </p>
+          <h4>Owner, Trading Company</h4>
+        </article>
+        <article class="card testimonial">
+          <p>
+            “They explained complex tax rules in simple language and helped us avoid a significant penalty.”
+          </p>
+          <h4>Finance Manager, SME</h4>
+        </article>
+        <article class="card testimonial">
+          <p>
+            “Fast responses, clear guidance, and reliable support every year during tax season.”
+          </p>
+          <h4>Independent Consultant</h4>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <header class="section-header">
+        <h2>About Our Tax Consultancy</h2>
+        <p>Focused on long‑term relationships built on trust and clarity.</p>
+      </header>
+
+      <div class="about-grid">
+        <div>
+          <p>
+            Tax Master is a boutique tax consultancy supporting individuals, freelancers,
+            and SMEs with reliable tax advisory and compliance services.
+          </p>
+          <p>
+            From first‑time filings to complex cross‑border questions, our team helps you make
+            informed decisions and stay ahead of changing regulations.
+          </p>
+        </div>
+        <div class="team">
+          <article class="team-member">
+            <h3>Lead Consultant Name</h3>
+            <p>Tax Consultant (Qualification)</p>
+            <p>10+ years in corporate and individual tax advisory.</p>
+          </article>
+          <article class="team-member">
+            <h3>Senior Advisor Name</h3>
+            <p>VAT & Compliance Specialist</p>
+            <p>Expert in VAT, indirect taxes, and regulatory filings.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <header class="section-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers to common questions about working with us.</p>
+      </header>
+
+      <div class="faq-list">
+        <article class="faq-item">
+          <button class="faq-question">
+            What should I prepare for the first consultation?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Basic financial information, your last tax return (if any), and any letters or
+              notices received from the tax authority are usually enough to start.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-question">
+            How do you charge for your services?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              We offer fixed‑fee packages for most services and will confirm the fee in writing
+              before any work begins.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-question">
+            Can you work with clients remotely?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, we work with clients fully online using secure document sharing and virtual meetings.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-question">
+            Can you help if I already received a notice or penalty?
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Our team can review the notice, explain your options, and assist with corrective filings
+              or responses to the tax authority.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-contact" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <header class="section-header">
+          <h2>Ready to Simplify Your Taxes?</h2>
+          <p>Share your details and a consultant will contact you within one business day.</p>
+        </header>
+
+        <form id="contactForm" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="businessType">Client type</label>
+              <select id="businessType" name="businessType">
+                <option value="business">Business</option>
+                <option value="individual">Individual</option>
+                <option value="freelancer">Freelancer</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-block">Submit Request</button>
+          <p class="form-note">
+            By submitting this form you agree to be contacted regarding your enquiry.
+          </p>
+          <p class="form-success" id="contactSuccess" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h3>Contact & Office</h3>
+        <p><strong>Phone:</strong> +91 950 000 0000</p>
+        <p><strong>Email:</strong> info@taxmaster.com</p>
+        <p><strong>Office:</strong> Your Office Address, Kerala, India</p>
+        <p><strong>Hours:</strong> Monday – Friday, 9:00 – 18:00</p>
+        <p>
+          You can also reach us on WhatsApp or schedule a virtual consultation at a time that suits you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tax Master. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
